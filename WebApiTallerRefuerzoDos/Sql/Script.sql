@@ -1,0 +1,16 @@
+﻿CREATE DATABASE TallerRefuerzo2;
+
+USE TallerRefuerzo2;
+
+CREATE TABLE Grupo (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Contactos (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(255) NOT NULL,
+    Telefono NVARCHAR(50),
+    GrupoId INT,
+   FOREIGN KEY (GrupoId)REFERENCES Grupo(Id)
+);

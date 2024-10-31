@@ -1,6 +1,6 @@
-﻿CREATE DATABASE TallerRefuerzo2;
+﻿CREATE DATABASE TallerRefuerzo2DB;
 
-USE TallerRefuerzo2;
+USE TallerRefuerzo2DB;
 
 CREATE TABLE Grupo (
     Id INT PRIMARY KEY IDENTITY(1,1),

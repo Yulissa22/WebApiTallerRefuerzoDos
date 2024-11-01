@@ -19,10 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
     <Folder Include="Enpoints\" />
-    <Folder Include="Mappings\" />
-    <Folder Include="Model\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
